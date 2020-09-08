@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Clear Linux Build Status
 
 on:
   push:

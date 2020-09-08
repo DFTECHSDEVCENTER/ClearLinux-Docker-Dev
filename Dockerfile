@@ -1,6 +1,6 @@
 FROM clearlinux:latest
 
-RUN swupd autoupdate --disable
+## RUN swupd autoupdate --disable
 RUN swupd update --version 3368
 
 RUN swupd bundle-add nodejs-basic

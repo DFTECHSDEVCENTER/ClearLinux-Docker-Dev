@@ -9,7 +9,7 @@ RUN swupd bundle-add python-extras
 
 ## RUN swupd bundle-add software-defined-cockpit-dev
 ## RUN swupd bundle-add os-utils-gui-dev
-RUN swupd bundle-add desktop-dev
+## RUN swupd bundle-add desktop-dev
 
 RUN swupd bundle-add shells
 

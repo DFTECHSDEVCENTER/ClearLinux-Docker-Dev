@@ -13,4 +13,8 @@ RUN swupd bundle-add desktop-dev
 
 RUN swupd bundle-add shells
 
+RUN node -v
+RUN python --version
+RUN npm -v
+
 CMD ["bash"]
